@@ -356,6 +356,18 @@ section{
     overflow:hidden;
 }
 
+.box-cert {
+    flex:1 1 18rem;
+    text-align: center;
+    padding:2rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+}
+
+.cert_img{
+    height: 500px;
+}
+
 .about .box-container .box i{
     font-size:4rem;
     padding-bottom: 5rem;
@@ -600,6 +612,10 @@ section{
         display: initial;
     }
 
+    .cert_img{
+        height: 250px;
+    }
+
 }
 
 @media (max-width:450px){
@@ -611,6 +627,10 @@ section{
     .header{
         width:100%;
         border-right: 0;
+    }
+
+    .cert_img{
+        height: 125px;
     }
 
 }
