@@ -589,6 +589,16 @@ section{
 
 /* media queries  */
 
+@media (max-width: 1900px) {
+    .cert_img {
+        height: 500px;
+    }
+}
+@media (max-width: 815px) {
+    .cert_img {
+        height: 320px;
+    }
+}
 @media (max-width:991px){
 
     html{
@@ -604,7 +614,7 @@ section{
     }
 
     .header.active{
-        left:0%;
+        left:0;
         transition: .4s linear;
     }
 
